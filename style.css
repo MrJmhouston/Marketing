@@ -214,25 +214,27 @@ section.donate {
     padding: 0rem 0rem 0rem 0rem;
 }
 
-#donate-img1,
-#donate-img2 {
-    margin: 0rem 3rem 0rem 3rem;
+#donate-img1 {
+    margin: 0rem 10rem 0rem 3rem;
     box-shadow: .03rem .01rem 5rem .3rem;
-}
-
-#donate-img3 {
-    margin: 0rem 3rem 1rem 3rem;
-    box-shadow: .03rem .01rem 5rem .3rem;
-}
-
-#donate-img3 {
-    height: 18rem;
+    border: .2rem solid rgba(0, 0, 0, 0.548);
+    height: 15rem;
     border-radius: 2rem;
 }
 
-#donate-img1,
 #donate-img2 {
+    margin: 0rem 0rem 0rem 10rem;
+    box-shadow: .03rem .01rem 5rem .3rem;
+    border: .2rem solid rgba(0, 0, 0, 0.548);
     height: 16rem;
+    border-radius: 2rem;
+}
+
+#donate-img3 {
+    margin: 0rem 10rem 1rem 3rem;
+    box-shadow: .03rem .01rem 5rem .3rem;
+    border: .2rem solid rgba(0, 0, 0, 0.548);
+    height: 20rem;
     border-radius: 2rem;
 }
 
@@ -266,6 +268,7 @@ section.volunteer {
     margin: 3rem 2rem 4rem 2rem;
     border-radius: 2rem;
     box-shadow: .01rem .01rem 2rem .1rem;
+    border: .2rem solid rgb(0, 0, 0);
 }
 
 .volunteer-description {
@@ -301,7 +304,7 @@ section.volunteer {
 .vdh {
     margin: 2rem 0rem 2rem 0rem;
     box-shadow: .01rem .01rem 2rem .1rem;
-    border: .2rem solid black;
+    border: .3rem solid rgba(0, 0, 0, 0.623);
     box-sizing: border-box;
     border-radius: 1rem;
     background: linear-gradient(to right, transparent, rgb(151, 182, 135));
@@ -309,7 +312,7 @@ section.volunteer {
 
 .vdp {
     box-shadow: .01rem .01rem 2rem .1rem;
-    border: .2rem solid black;
+    border: .3rem solid rgba(0, 0, 0, 0.623);
     box-sizing: border-box;
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.74);
