@@ -239,7 +239,7 @@ section.donate {
 }
 
 .sign-up {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.349), rgb(151, 182, 135));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.651), rgb(151, 182, 135));
     border: .1rem solid white;
     border-radius: 1.5rem;
     color: white;
@@ -249,6 +249,11 @@ section.donate {
     text-transform: uppercase;
     margin: 2rem 0rem 0rem 0rem;
     cursor: pointer;
+    
+}
+
+.sign-up:hover {
+    background: linear-gradient(to right, rgb(151, 182, 135), transparent);
 }
 
 .space p {
@@ -331,6 +336,10 @@ section.volunteer {
 .vdp .sign-up {
     margin: -2rem 0rem 1rem 0rem;
     background: linear-gradient(to right, black, rgb(151, 182, 135));
+}
+
+.vdp .sign-up:hover {
+    background: linear-gradient(to right, rgb(151, 182, 135), black);
 }
 
 /* end volunteer styles */
