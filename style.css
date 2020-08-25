@@ -185,11 +185,11 @@ section.donate {
 
 .donate-store,
 .donate-individual {
-    background: linear-gradient(to right, transparent, #000000);
+    background: linear-gradient(-30deg , rgb(151, 182, 135) 0%, white 70%, transparent 100%);
 }
 
 .donate-restaurant {
-    background: linear-gradient(to left, transparent, #000000);
+    background: linear-gradient(-30deg , transparent 0%, white 30%, rgb(151, 182, 135) 100%);
 }
 
 .donate-store h2,
@@ -215,32 +215,32 @@ section.donate {
 }
 
 #donate-img1 {
-    margin: 0rem 10rem 0rem 3rem;
-    box-shadow: .03rem .01rem 5rem .3rem;
+    margin: 1rem 10rem 1rem 3rem;
+    box-shadow: .03rem .01rem 5rem .3rem black;
     border: .2rem solid rgba(0, 0, 0, 0.548);
     height: 15rem;
     border-radius: 2rem;
 }
 
 #donate-img2 {
-    margin: 0rem 0rem 0rem 10rem;
-    box-shadow: .03rem .01rem 5rem .3rem;
+    margin: 1rem 0rem 1rem 10rem;
+    box-shadow: .03rem .01rem 5rem .3rem black;
     border: .2rem solid rgba(0, 0, 0, 0.548);
     height: 16rem;
     border-radius: 2rem;
 }
 
 #donate-img3 {
-    margin: 0rem 10rem 1rem 3rem;
-    box-shadow: .03rem .01rem 5rem .3rem;
+    margin: .5rem 10rem .5rem 3rem;
+    box-shadow: .03rem .01rem 5rem .3rem black;
     border: .2rem solid rgba(0, 0, 0, 0.548);
     height: 20rem;
     border-radius: 2rem;
 }
 
 .sign-up {
-    background: linear-gradient(to right, transparent, rgb(151, 182, 135));
-    border: rem solid white;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.349), rgb(151, 182, 135));
+    border: .1rem solid white;
     border-radius: 1.5rem;
     color: white;
     padding: .7rem .7rem .7rem .7rem;
@@ -249,6 +249,11 @@ section.donate {
     text-transform: uppercase;
     margin: 2rem 0rem 0rem 0rem;
     cursor: pointer;
+}
+
+.space p {
+    color: rgba(255, 255, 255, 0);
+    font-size: 4.5rem;
 }
 
 /* end donate styles */
@@ -388,6 +393,5 @@ section.volunteer {
     padding: .5rem .5rem;
     font-family: initial;
 }
-
 
 /* end footer styles */
