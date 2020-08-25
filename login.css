@@ -119,7 +119,7 @@ a {
     align-items: center;
     flex-flow: row;
     margin: 5rem 0rem 5rem 0rem;
-    padding: 30rem 0rem 0rem 0rem;
+    padding: 15rem 0rem 0rem 0rem;
 }
 
 .box {
@@ -134,12 +134,17 @@ a {
     border-radius: 1rem;
     background: linear-gradient(to top, transparent, rgb(151, 182, 135));
     box-shadow: .03rem .01rem 2rem .3rem;
+    border: .5rem solid rgba(0, 0, 0, 0.548);
+}
+
+.box a {
+    color: white;
 }
 
 .box-font {
     margin: 2rem 0rem 0rem 0rem;
-    font-size: 2rem;
-     text-shadow: .2rem .3rem .4rem white;
+    font-size: 3rem;
+    text-shadow: .2rem .3rem .4rem rgb(0, 0, 0);
 }
 
 .box .icon {
@@ -149,9 +154,13 @@ a {
 }
 
 .box-font a:hover {
-    font-size: 2.3rem;
-    color: rgba(0, 0, 0, 0.37);
-   
+    font-size: 3.1rem;
+    color: rgba(0, 0, 0, 0.055);
+}
+
+.box .icon:hover {
+    font-size: 4.7rem;
+    color: rgba(0, 0, 0, 0.055);
 }
 /* end box styles */
 
