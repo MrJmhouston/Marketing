@@ -785,6 +785,7 @@ section.volunteer {
     .donate-store-description h6,
     .donate-individual-description h6 {
         font-size: 1.4rem;
+        padding: 0rem 4rem 0rem 4rem;
     }
 
     .donate-restaurant-description p,
@@ -847,6 +848,12 @@ section.volunteer {
         margin: 0rem 0rem 0rem 6.2rem;
     }
 
+    .donate-individual-description h6,
+    .donate-restaurant-description h6,
+    .donate-store-description h6 {
+        padding: 0rem 4rem 0rem 4rem;
+    }
+
     .vdp p {
         width: 20rem;
     }
@@ -863,6 +870,141 @@ section.volunteer {
 }
 /* end media queries (max-width: 480px) */
 
+/* start media queries (max-width: 420px) */
+@media (max-width: 420px) {
+
+    .top-nav.open {
+        margin: 0rem 0rem 0rem 8rem;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .page-container {
+        margin: 0rem .4rem;
+    }
+
+    .donate-heading p {
+        margin: 0rem 0rem 0rem 6.2rem;
+    }
+    
+    .vdp p {
+        width: 20rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 13rem;
+    }
+}
+
+/* end media queries (max-width: 420px) */
+
+/* start media queries (max-width: 410px) */
+@media (max-width: 410px) {
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .page-container {
+        margin: 0rem .4rem;
+    }
+
+    .donate-heading p {
+        margin: 0rem 0rem 0rem 6rem;
+    }
+    
+    .vdp p {
+        width: 15rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 10rem;
+    }
+}
+
+
+/* end media queries (max-width: 410px) */
+
+/* start media queries (max-width: 400px) */
+@media (max-width: 400px) {
+    .page-container {
+        margin: 0rem .3rem;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .top-nav.open {
+        margin: 0rem 0rem 0rem 7.5rem;
+    }
+
+    .donate-heading p {
+        margin: 0rem 0rem 0rem 5.8rem;
+    }
+
+    .vdp p {
+        width: 15rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 10rem;
+    }
+
+}
+
+
+/* end media queries (max-width: 400px) */
+
+/* start media queries (max-width: 360px) */
+
+@media (max-width: 360px) {
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .top-nav.open {
+        margin: 0rem 0rem 0rem 5.5rem;
+    }
+
+    .page-container {
+        margin: 0rem .3rem;
+    }
+
+    .landing-text h1 {
+        font-size: 6rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.05rem;
+    }
+
+    .donate-heading p {
+        margin: 0rem 0rem 0rem 5rem;
+    }
+
+    .donate-individual-description h6,
+    .donate-restaurant-description h6,
+    .donate-store-description h6 {
+        padding: 0rem 4rem 0rem 4rem;
+    }
+
+    .vdp p {
+        width: 15rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 10rem;
+    }
+}
+
+/* end media queries (max-width: 360px) */
+
 /* start media queries (max-width: 320px) */
 @media (max-width: 320px) {
     .logo {
@@ -874,7 +1016,7 @@ section.volunteer {
     }
 
     .page-container {
-        margin: 0rem .6rem;
+        margin: 0rem .3rem;
     }
 
     .landing-text h1 {
@@ -887,6 +1029,12 @@ section.volunteer {
 
     .donate-heading p {
         margin: 0rem 0rem 0rem 4.5rem;
+    }
+
+    .donate-individual-description h6,
+    .donate-restaurant-description h6,
+    .donate-store-description h6 {
+        padding: 0rem 4rem 0rem 4rem;
     }
 
     .vdp p {
