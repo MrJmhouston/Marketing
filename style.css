@@ -606,19 +606,52 @@ section.volunteer {
 /* end media queries (max-width: 1200px) */
 
 /* start media queries (max-width: 1154px) */
-@media (max-width: 1154px)
+@media (max-width: 1154px) {
     .nav-list-bottom {
         margin:  0rem 0rem 0rem 1.5rem;
     }
 
     .logo-bottom {
-        margin: 0rem 0rem 0rem -32.5rem;
+        margin: 0rem 0rem 0rem -27.5rem;
     }
 
     .nav-bar-bottom {
         flex-wrap: nowrap;
     }
+}
 /* end media queries (max-width: 1154px) */
+
+/* start media queries (max-width: 1114px) */
+@media (max-width: 1114px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -30.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1114px) */
+
+/* start media queries (max-width: 1070px) */
+@media (max-width: 1114px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -33.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1070px) */
 
 /* start media queries (max-width: 1024px) */
 
@@ -646,8 +679,40 @@ section.volunteer {
 }
 /* end media queries (max-width: 1024px)  */
 
+/* start media queries (max-width: 992px) */
+@media (max-width: 992px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -33.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 992px) */
+
+/* start media queries (max-width: 936px) */
+@media (max-width: 936px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -36.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 936px) */
+
 /* start media queries (max-width: 900px) */
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     .nav-list {
         margin:  0rem 1.5rem 0rem 0rem;
     }
