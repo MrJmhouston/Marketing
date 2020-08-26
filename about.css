@@ -15,6 +15,111 @@
 
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.page-container {
+    margin: 0 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: .03rem .01rem 5rem .3rem rgba(33, 95, 4, 0.836);
+}
+
+.page-center {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+section {
+    margin: 0rem 4.5rem 0rem 4.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+/*  end global styles */
+
+/* start navigation styles */
+.logo {
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.5rem;
+    flex: 1 1 auto;
+    margin-left: 4.5rem;
+    color: rgb(157, 187, 144);
+    text-shadow: .1rem .2rem .5rem rgb(0, 0, 0);
+    letter-spacing: .1rem;
+}
+
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    height: 5rem;
+    transition: all 800ms cubic-bezier(.01, 0, .0, 1.05);
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(151, 182, 135));
+}
+
+.nav-list {
+    display: flex;
+    justify-content: right;
+    margin-right: 6rem;
+}
+
+.nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+    letter-spacing: .2rem;
+}
+ 
+.nav-link:hover,
+.nav-link:focus {
+    font-size: 2.1rem;
+     -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.678);
+ }  
+/* end navigation styles */
+
+/* start sign up form styles */
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&family=Yesteryear&display=swap');
+
+/* end font import */
+
+/* start global styles */
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     
 }
 
@@ -33,7 +138,6 @@ html::-webkit-scrollbar {
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: .03rem .01rem 5rem .3rem rgba(33, 95, 4, 0.836);
-    
 }
 
 .page-center {
@@ -45,20 +149,20 @@ html::-webkit-scrollbar {
 }
 
 section {
-    top: 0;
-    margin: 0rem 0rem 0rem 0rem;
-    text-align: center;
-    background: url('images/food-top.jpg') no-repeat center;
-    background-size: cover;
-    padding: 0rem 0rem 0rem 0rem;
-    height: 50rem;
-    z-index: -1;
+    margin: 10rem 4.5rem 5rem 4.5rem;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    background: linear-gradient(-30deg, rgb(151, 182, 135) 0%, white 50%, rgb(151, 182, 135) 100%);
+    animation: animate 10s linear infinite;
 }
+
 
 a {
     text-decoration: none;
-    color: grey;
+    color: rgb(40, 143, 228);
 }
+
 /*  end global styles */
 
 /* start navigation styles */
@@ -111,58 +215,50 @@ a {
  }  
 /* end navigation styles */
 
-/* start box styles */
-.box-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row;
-    margin: 5rem 0rem 5rem 0rem;
-    padding: 15rem 0rem 0rem 0rem;
-}
+/* start about styles */
 
 .box {
+  position: relative;
+  margin: 3.5rem;
+  padding: 0rem 5rem 0rem 5rem;
+  width: 35rem;
+  height: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, .1);
+  border: .5rem solid rgba(0, 0, 0, 0.075);
+  border-radius: 2rem;
+  box-shadow: .5rem .9rem .5rem rgba(0, 0, 0, 0.61);
+}
+
+.about-heading {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 3rem 3rem 3rem 3rem;
-    margin: 0rem 4rem 0rem 4rem;
-    border: .1rem solid black;
-    border-radius: 1rem;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.473), rgb(151, 182, 135));
-    box-shadow: .03rem .01rem 2rem .3rem;
-    border: .5rem solid rgba(0, 0, 0, 0.705);
+    margin: 0rem 0rem -2rem 0rem;
 }
 
-.box a {
-    color: white;
+.about-heading h2 {
+    font-size: 3.5rem;
+    margin: 0rem 1rem 0rem 0rem;
 }
 
-.box-font {
-    margin: 2rem 0rem 0rem 0rem;
-    font-size: 3rem;
-    text-shadow: .2rem .3rem .4rem rgb(0, 0, 0);
+.about-heading a {
+    font-family: 'Yesteryear', cursive;
+    font-size: 3.5rem;
+    color: rgb(157, 187, 144);
+    text-shadow: .1rem .2rem .5rem rgb(0, 0, 0);
+    letter-spacing: .1rem;
 }
 
-.box .icon {
-    font-size: 4.5rem;
-    color: white;
-    text-shadow: .1rem .7rem .5rem black;
+.about-p {
+    font-size: 1.7rem;
 }
+/* end about styles */
 
-.box-font a:hover {
-    font-size: 3.1rem;
-    color: rgba(0, 0, 0, 0.055);
-}
-
-.box .icon:hover {
-    font-size: 4.7rem;
-    color: rgba(0, 0, 0, 0.055);
-}
-/* end box styles */
 
 /* start bottom nav styles */
  .logo-bottom {
@@ -192,6 +288,7 @@ a {
 .nav-list-bottom {
     display: flex;
     justify-content: right;
+
 }
 
 .nav-list-bottom a {
