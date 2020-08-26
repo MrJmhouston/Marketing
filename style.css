@@ -405,6 +405,103 @@ section.volunteer {
 
 /* end footer styles */
 
+/* start media queries (max-width: 1600px) */
+@media (max-width: 1600px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -16rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1600px) */
+
+/* start media queries (max-width: 1515px) */
+@media (max-width: 1515px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -20.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1515px) */
+
+/* start media queries (max-width: 1480px) */
+@media (max-width: 1480px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -23.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1480px) */
+
+/* start media queries (max-width: 1434px) */
+@media (max-width: 1434px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -27.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1434px) */
+
+/* start media queries (max-width: 1366px) */
+@media (max-width: 1434px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -32.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1366px) */
+
+/* start media queries (max-width: 1290px) */
+@media (max-width: 1290px) {
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -37.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+/* end media queries (max-width: 1290px) */
+
+
 /* start media queries (max-width: 1200px) */
 @media (max-width: 1200px) {
     .nav-list {
@@ -503,10 +600,25 @@ section.volunteer {
     }
 
     .nav-bar-bottom {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 }
 /* end media queries (max-width: 1200px) */
+
+/* start media queries (max-width: 1154px) */
+@media (max-width: 1154px)
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -32.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+/* end media queries (max-width: 1154px) */
 
 /* start media queries (max-width: 1024px) */
 
@@ -554,9 +666,9 @@ section.volunteer {
     }
 
     .donate-heading p {
-    font-size: 1.2rem;
-    margin: 0rem 0rem 0rem 12.5rem;
-    width: 50%;
+        font-size: 1.2rem;
+        margin: 0rem 0rem 0rem 12.5rem;
+        width: 50%;
     }
 
     .donate-store,
@@ -623,34 +735,33 @@ section.volunteer {
 
 /* start media queries (max-width: 768px) */
 @media (max-width: 768px) {
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .page-container {
+        margin: 0rem .3rem;
+    }
+
+    .landing-text h1 {
+        font-size: 10rem;
+    }
+
     .donate-heading p {
         font-size: 1.2rem;
         margin: 0rem 0rem 0rem 11rem;
         width: 50%;
     }
 
-    .nav-list-bottom a {
-        font-size: 1.2rem;
-        margin: .5rem;
-    }
-
-    .nav-list-bottom {
-        margin:  0rem 0rem 0rem 1.5rem;
-    }
-
-    .logo-bottom {
-        margin: 0rem 0rem 0rem -42.5rem;
-    }
-
     .nav-bar-bottom {
-        flex-wrap: nowrap;
+        display: none;
     }
 }
 
 /* end media queries (max-width: 768px) */
 
-/* start media queries (max-width: 600px) */
-@media (max-width: 600px) {
+/* start media queries (max-width: 682px) */
+@media (max-width: 682px) {
     .top-nav {
         position: fixed;
         display: flex;
@@ -740,6 +851,103 @@ section.volunteer {
 
     .open .bar.half.end {
         transform: rotate(-450deg) translateX(-1rem) translateY(1.5rem);
+    }
+
+    .logo {
+        margin-left: 1.5rem;
+    }
+
+    .landing-text {
+        padding-top: 12rem;
+    }
+
+    .landing-text h1 {
+        font-size: 11rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.8rem;
+    }
+
+    .donate-heading p {
+        font-size: 1.2rem;
+        margin: 0rem 0rem 0rem 10rem;
+        width: 50%;
+    }
+
+    #donate-img1 {
+        margin: 1rem 0rem 1rem 0rem;
+        height: 9rem;
+    }
+
+    #donate-img2 {
+        margin: 1rem 0rem 1rem 0rem;
+        height: 10rem;
+    }
+
+    #donate-img3 {
+        margin: .5rem 0rem .5rem 0rem;
+        height: 15rem;
+    }
+
+    .donate-restaurant-description h2,
+    .donate-store-description h2,
+    .donate-individual-description h2 {
+        font-size: 1.8rem;
+    }
+
+    .donate-restaurant-description h6,
+    .donate-store-description h6,
+    .donate-individual-description h6 {
+        font-size: 1.4rem;
+        padding: 0rem 4rem 0rem 4rem;
+    }
+
+    .donate-restaurant-description p,
+    .donate-store-description p,
+    .donate-individual-description p {
+        padding: 0rem 2.5rem 0rem 2.5rem;
+        font-size: 1rem;
+    }
+
+    .sign-up {
+        font-size: .8rem;
+        margin: 1rem 0rem .5rem 0rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 14rem;
+        margin: 2.5rem .5rem .5rem .5rem;
+    }
+
+    .volunteer-description h2 {
+        font-size: 2.5rem;
+    }
+
+    .volunteer-description h6 {
+        font-size: 1.5rem;
+    }
+
+    .volunteer-description p {
+        font-size: 1.2rem;
+    }
+
+    .vdp .sign-up {
+        font-size: .8rem;
+    }
+
+    .nav-bar-bottom {
+        display: none;
+    }
+
+}
+/* end media queries (max-width: 682px) */
+
+/* start media queries (max-width: 600px) */
+@media (max-width: 600px) {
+    .logo {
+        margin-left: 1.5rem;
     }
 
     .landing-text {
@@ -832,6 +1040,13 @@ section.volunteer {
 
 /* start media queries (max-width: 480px) */
 @media (max-width: 480px) {
+    .logo {
+        margin-left: 1.5rem;
+    }
+
+    .page-container {
+        margin: 0rem .4rem;
+    }
     .top-nav.open {
         margin: 0rem 0rem 0rem 9.5rem;
     }
