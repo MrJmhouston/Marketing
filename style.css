@@ -404,3 +404,499 @@ section.volunteer {
 }
 
 /* end footer styles */
+
+/* start media queries (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .nav-list {
+        margin:  0rem 2rem 0rem 0rem;
+    }
+
+    .nav-list a {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .landing-text {
+        padding-top: 10rem;
+    }
+
+    .landing-text h1 {
+        font-size: 13rem;
+    }
+
+    .landing-text h6 {
+        font-size: 2.5rem;
+    }
+
+    .donate-heading h2 {
+        font-size: 3rem;
+    }
+
+    .donate-heading h6 {
+        font-size: 2rem;
+    }
+
+    .donate-heading p {
+    font-size: 1.2rem;
+    }
+
+    .donate-store,
+    .donate-restaurant,
+    .donate-individual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #donate-img1 {
+        margin: 1rem 5rem 1rem 0rem;
+        height: 12rem;
+    }
+
+    #donate-img2 {
+        margin: 1rem 0rem 1rem 5rem;
+        height: 14rem;
+    }
+
+    #donate-img3 {
+        margin: .5rem 7rem .5rem 10rem;
+    }
+
+    .sign-up {
+        font-size: 1rem;
+    }
+
+    .volunteer-description h2 {
+        font-size: 3.5rem;
+    }
+
+    .volunteer-description h6 {
+        font-size: 1.5rem;
+    }
+
+    .volunteer-description p {
+        font-size: 1.2rem;
+        width: 25rem;
+    }
+
+    .vdp .sign-up {
+        font-size: 1rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 17rem;
+    }
+
+    .nav-list-bottom a {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -25rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: wrap;
+    }
+}
+/* end media queries (max-width: 1200px) */
+
+/* start media queries (max-width: 1024px) */
+
+    @media (max-width: 1024px) {
+        #donate-img3 {
+        margin: .5rem 5rem .5rem 0rem;
+    }
+
+    .volunteer-description p {
+        font-size: 1.2rem;
+    }
+
+    .nav-list-bottom a {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -30rem;
+    }
+}
+/* end media queries (max-width: 1024px)  */
+
+/* start media queries (max-width: 900px) */
+@media (max-width: 1024px) {
+    .nav-list {
+        margin:  0rem 1.5rem 0rem 0rem;
+    }
+
+    .nav-list a {
+        margin: .5rem;
+        font-size: 1.2rem;
+    }
+
+    .donate-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .donate-heading h6 {
+        font-size: 1.8rem;
+    }
+
+    .donate-heading p {
+    font-size: 1.2rem;
+    margin: 0rem 0rem 0rem 12.5rem;
+    width: 50%;
+    }
+
+    .donate-store,
+    .donate-individual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .donate-restaurant {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    #donate-img1 {
+        margin: 1rem 0rem 1rem 0rem;
+        height: 12rem;
+    }
+
+    #donate-img2 {
+        margin: 1rem 0rem 1rem 0rem;
+        height: 14rem;
+    }
+
+    #donate-img3 {
+        margin: .5rem 0rem .5rem 0rem;
+    }
+
+    .sign-up {
+        font-size: 1rem;
+        margin: 1rem 0rem .5rem 0rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 17rem;
+        margin: 2.5rem .5rem .5rem .5rem;
+    }
+
+    .nav-list-bottom a {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -38.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+
+/* end media queries (max-width: 900px) */
+
+/* start media queries (max-width: 768px) */
+@media (max-width: 768px) {
+    .donate-heading p {
+        font-size: 1.2rem;
+        margin: 0rem 0rem 0rem 11rem;
+        width: 50%;
+    }
+
+    .nav-list-bottom a {
+        font-size: 1.2rem;
+        margin: .5rem;
+    }
+
+    .nav-list-bottom {
+        margin:  0rem 0rem 0rem 1.5rem;
+    }
+
+    .logo-bottom {
+        margin: 0rem 0rem 0rem -42.5rem;
+    }
+
+    .nav-bar-bottom {
+        flex-wrap: nowrap;
+    }
+}
+
+/* end media queries (max-width: 768px) */
+
+/* start media queries (max-width: 600px) */
+@media (max-width: 600px) {
+    .top-nav {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 10rem;
+        justify-content: space-evenly;
+        font-size: .8rem;
+        background: linear-gradient(to top, #000000, transparent);
+        top: -500vh;
+        z-index: 500;
+        transition: all 800ms cubic-bezier(.01, 0, .0, 1.05);
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        margin: 1.5rem 0rem 0rem 1rem;
+    }
+
+    .top-nav.open {
+        top: 0;
+        height: 25rem;
+        margin: 0rem 0rem 0rem 13.5rem;
+        border-radius: initial;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .menu-toggle {
+        position: fixed;
+        top: 1rem;
+        right: 3rem;
+        width: 3rem;
+        height: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 1500;
+        transition: transform 450ms ease-out;
+    }
+
+    .bar-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bar-container div {
+        padding: 0rem 0rem .3rem 0rem;
+        margin: 0rem 0rem .7rem 0rem;
+    }
+
+
+    .menu-toggle.open {
+        transform: rotate(-45deg);
+        position: fixed;
+        top: 1rem;
+    }
+
+    .bar {
+        background: linear-gradient(to left, white, transparent);
+        border-radius: .8rem;
+    }
+
+    .bar.half {
+        width: 100%;
+    }
+
+    .bar.start {
+        transform-origin: right;
+        transition: transform 450ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    }
+
+    .open .bar.start {
+        transform: rotate(-450deg) translateX(.4rem) translateY(-1.5rem);
+    }
+
+    .bar.end {
+        align-self: flex-end;
+        transform-origin: left;
+        transition:  transform 450ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    }
+
+    .open .bar.half.end {
+        transform: rotate(-450deg) translateX(-1rem) translateY(1.5rem);
+    }
+
+    .landing-text {
+        padding-top: 14rem;
+    }
+
+    .landing-text h1 {
+        font-size: 9rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.8rem;
+    }
+
+    .donate-heading p {
+        font-size: 1.2rem;
+        margin: 0rem 0rem 0rem 8rem;
+        width: 50%;
+    }
+
+    #donate-img1 {
+        margin: 1rem 0rem 1rem 0rem;
+        height: 9rem;
+    }
+
+    #donate-img2 {
+        margin: 1rem 0rem 1rem 0rem;
+        height: 10rem;
+    }
+
+    #donate-img3 {
+        margin: .5rem 0rem .5rem 0rem;
+        height: 15rem;
+    }
+
+    .donate-restaurant-description h2,
+    .donate-store-description h2,
+    .donate-individual-description h2 {
+        font-size: 1.8rem;
+    }
+
+    .donate-restaurant-description h6,
+    .donate-store-description h6,
+    .donate-individual-description h6 {
+        font-size: 1.4rem;
+    }
+
+    .donate-restaurant-description p,
+    .donate-store-description p,
+    .donate-individual-description p {
+        padding: 0rem 2.5rem 0rem 2.5rem;
+        font-size: 1rem;
+    }
+
+    .sign-up {
+        font-size: .8rem;
+        margin: 1rem 0rem .5rem 0rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 14rem;
+        margin: 2.5rem .5rem .5rem .5rem;
+    }
+
+    .volunteer-description h2 {
+        font-size: 2.5rem;
+    }
+
+    .volunteer-description h6 {
+        font-size: 1.5rem;
+    }
+
+    .volunteer-description p {
+        font-size: 1.2rem;
+    }
+
+    .vdp .sign-up {
+        font-size: .8rem;
+    }
+
+    .nav-bar-bottom {
+        display: none;
+    }
+
+}
+
+/* end media queries (max-width: 600px) */
+
+/* start media queries (max-width: 480px) */
+@media (max-width: 480px) {
+    .top-nav.open {
+        margin: 0rem 0rem 0rem 9.5rem;
+    }
+
+    .landing-text h1 {
+        font-size: 7rem;
+    }
+    
+    .landing-text h6 {
+        font-size: 1.1rem;
+    }
+
+    .donate-heading p {
+        margin: 0rem 0rem 0rem 6.2rem;
+    }
+
+    .vdp p {
+        width: 20rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 13rem;
+    }
+
+    #volunteer-img2 {
+        margin-bottom: 2rem;
+    }
+
+}
+/* end media queries (max-width: 480px) */
+
+/* start media queries (max-width: 320px) */
+@media (max-width: 320px) {
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .top-nav.open {
+        margin: 0rem 0rem 0rem 5.5rem;
+    }
+
+    .page-container {
+        margin: 0rem .6rem;
+    }
+
+    .landing-text h1 {
+        font-size: 6rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.05rem;
+    }
+
+    .donate-heading p {
+        margin: 0rem 0rem 0rem 4.5rem;
+    }
+
+    .vdp p {
+        width: 15rem;
+    }
+
+    #volunteer-img1,
+    #volunteer-img2 {
+        height: 10rem;
+    }
+}
+
+/* end media queries (max-width: 320px) */
