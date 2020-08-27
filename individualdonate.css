@@ -149,7 +149,7 @@ html::-webkit-scrollbar {
 }
 
 section {
-    margin: 10rem 4.5rem 5rem 4.5rem;
+    margin: 6rem 1.5rem 1rem 1.5rem;
     display: flex;
     justify-content: center;
     min-height: 50vh;
@@ -219,8 +219,8 @@ a {
 
 .box {
   position: relative;
-  margin: 3.5rem;
-  padding: 0rem 5rem 0rem 5rem;
+  margin: 1rem;
+  padding: 0rem .8rem 0rem .8rem;
   width: 30rem;
   height: 50rem;
   display: flex;
@@ -242,7 +242,7 @@ a {
   color: black;
   font-size: 2.5rem;
   letter-spacing: .03rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .box .form .input-box {
@@ -445,3 +445,33 @@ a {
   }
 }
 /* end media queries (max-width: 682px) */
+
+/* start media queries (max-width: 601px) */
+@media (max-width: 601px) {
+  .top-nav.open {
+    margin: 0rem 0rem 0rem 10.5rem;
+  }
+}
+
+
+/* end media queries (max-width: 601px) */
+
+/* start media queries (max-width: 495px) */
+@media (max-width: 495px) {
+  .top-nav.open {
+    margin: 0rem 0rem 0rem 6.5rem;
+  }
+}
+
+
+/* end media queries (max-width: 495px) */
+
+/* start media queries (max-width: 371px) */
+@media (max-width: 371px) {
+  .top-nav.open {
+    margin: 0rem 0rem 0rem 3.5rem;
+  }
+}
+
+
+/* end media queries (max-width: 371px) */
