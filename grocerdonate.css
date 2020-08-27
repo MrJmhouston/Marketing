@@ -14,12 +14,12 @@
 }
 
 body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
     
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
@@ -29,27 +29,26 @@ html::-webkit-scrollbar {
 }
 
 .page-container {
-    margin: 0 2rem;
-    border-radius: 2rem;
-    overflow: hidden;
-    box-shadow: .03rem .01rem 5rem .3rem rgba(33, 95, 4, 0.836);
+  margin: 0 2rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: .03rem .01rem 5rem .3rem rgba(33, 95, 4, 0.836);
 }
 
 .page-center {
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0rem 0rem 0rem 0rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0rem 0rem 0rem 0rem;
     
 }
 
 section {
-    margin: 6rem 1.5rem 1rem 1.5rem;
-    display: flex;
-    justify-content: center;
-    min-height: 50vh;
-    background: linear-gradient(-30deg, rgb(151, 182, 135) 0%, white 50%, rgb(151, 182, 135) 100%);
-    animation: animate 10s linear infinite;
+  margin: 6rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  background: linear-gradient(-30deg, rgb(151, 182, 135) 0%, white 50%, rgb(151, 182, 135) 100%);
 }
 
 
@@ -156,10 +155,27 @@ a {
   box-shadow: inset 0rem 0rem .5rem rgba(151, 182, 135, 0.76);
   font-size: .7rem;
 }
-
+ 
 .box .form .input-box input[type=text], 
 .box .form .input-box input[type=password] {
   padding-left: 2rem;
+}
+
+.box .form .input-box #sign-up {
+  width: 100%;
+  outline: none;
+  border:  solid rgba(0, 0, 0, 0.397);
+  background: transparent;
+  padding: .3rem .2rem;
+  border-radius: .4rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(151, 182, 135, 0.842);
+  font-size: .7rem;
+}
+
+.box .form .input-box button {
+  max-width: 5rem;
 }
 
 .box .form .input-box input[type=submit] {
@@ -190,56 +206,51 @@ a {
 }
 
 #cancel {
-    margin-top: 2rem;
-    background-color: rgba(255, 0, 0, 0.589);
-    color: white;
-    cursor: pointer;
+  margin-top: 2rem;
+  background-color: rgba(255, 0, 0, 0.589);
+  color: white;
+  cursor: pointer;
 }
 
-#sign-up {
-    background-color: rgba(151, 182, 135, 0.842);
-    color: white;
-    cursor: pointer;
-}
 /* end form styles */
 
 /* start footer styles */
 .copyright {
-    text-align: center;
-    color: white;
-    background-color: rgba(33, 95, 4, 0.438);
-    font-size: 1rem;
-    padding: .5rem .5rem;
-    font-family: initial;
+  text-align: center;
+  color: white;
+  background-color: rgba(33, 95, 4, 0.438);
+  font-size: 1rem;
+  padding: .5rem .5rem;
+  font-family: initial;
 }
 /* end footer styles */
 
 /* start media queries (max-width: 1200px) */
 @media (max-width: 1200px) {
-    .nav-list {
-        margin:  0rem 2rem 0rem 0rem;
-    }
+  .nav-list {
+    margin:  0rem 2rem 0rem 0rem;
+  }
 
-    .nav-list a {
-        margin: 1rem;
-        font-size: 1.5rem;
-    }
+  .nav-list a {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
 }
 /* end media queries (max-width: 1200px) */
 
 /* start media queries (max-width: 810px) */
 @media (max-width: 810px) {
   .logo {
-        margin-left: 2rem;
-    }
+    margin-left: 2rem;
+  }
 
   .nav-list {
-      margin:  0rem 2rem 0rem 0rem;
+    margin:  0rem 2rem 0rem 0rem;
   }
 
   .nav-list a {
-       margin: 1rem;
-      font-size: 1.2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
   }
 }
 /* end media queries (max-width: 810px) */

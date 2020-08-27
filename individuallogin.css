@@ -160,9 +160,20 @@ a {
   padding-left: 2rem;
 }
 
-.box .form .input-box input[type=submit] {
+.input-box .login-button {
   max-width: 5rem;
   cursor: pointer;
+}
+
+.box .form .input-box .login-button {
+  width: 100%;
+  outline: none;
+  border:  solid rgba(0, 0, 0, 0.397);
+  background: transparent;
+  padding: .3rem .2rem;
+  border-radius: .4rem;
+  box-shadow: inset 0rem 0rem .5rem rgba(151, 182, 135, 0.76);
+  font-size: .7rem;
 }
 
 .box .form .input-box i {
