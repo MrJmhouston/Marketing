@@ -174,11 +174,23 @@ a {
   font-size: .7rem;
 }
 
-.box .form .input-box button {
-  max-width: 5rem;
+#cancel {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: rgba(255, 0, 0, 0.589);
+  color: white;
+  cursor: pointer;
+  border:  solid rgba(0, 0, 0, 0.397);
+  padding: .3rem .2rem;
+  border-radius: .4rem;
+  font-size: .7rem;
 }
 
-.box .form .input-box input[type=submit] {
+#terms {
+  color: dodgerblue;
+}
+
+.box .form .input-box button {
   max-width: 5rem;
 }
 
@@ -203,13 +215,6 @@ a {
 .form p {
   margin-bottom: 1rem;
   font-size: 1.2rem;
-}
-
-#cancel {
-  margin-top: 2rem;
-  background-color: rgba(255, 0, 0, 0.589);
-  color: white;
-  cursor: pointer;
 }
 /* end form styles */
 
