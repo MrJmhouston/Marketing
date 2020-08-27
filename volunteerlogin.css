@@ -163,6 +163,7 @@ a {
 
 .box .form .input-box input[type=submit] {
   max-width: 5rem;
+  cursor: pointer;
 }
 
 .box .form .input-box i {
@@ -176,11 +177,11 @@ a {
   position: relative;
   display: inline-block;
   margin-bottom: .3rem;
-  cursor: pointer;
 }
 
 .box .form .remember input[type=checkbox] {
   margin: 0rem .3rem 0rem 0rem;
+  cursor: pointer;
 }
 
 .form p {
