@@ -144,9 +144,18 @@ section.donate {
 .donate-heading h2 {
     font-size: 4rem;
     text-transform: uppercase;
-    padding-top: 2rem;
+    padding-top: 3rem;
     margin: 0rem 0rem .5rem 0rem;
     letter-spacing: .5rem;
+}
+
+.donate-heading a {
+    font-family: 'Yesteryear', cursive;
+    font-size: 6rem;
+    color: rgb(157, 187, 144);
+    text-shadow: .1rem .2rem .5rem rgb(0, 0, 0);
+    letter-spacing: .1rem;
+    text-transform: none;
 }
 
 .donate-heading h6 {
@@ -210,8 +219,10 @@ section.donate {
 .donate-store p,
 .donate-restaurant p,
 .donate-individual p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 0rem 0rem 0rem 0rem;
+    color: black;
+    text-shadow: .1rem .2rem .5rem white;
 }
 
 #donate-img1 {
@@ -295,6 +306,12 @@ section.volunteer {
     text-shadow: .1rem .2rem .5rem white;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     letter-spacing: .5rem;
+}
+
+.volunteer-description h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: .1rem .2rem .5rem white;
 }
 
 .volunteer-description h6 {
@@ -470,7 +487,7 @@ section.volunteer {
 /* end media queries (max-width: 1434px) */
 
 /* start media queries (max-width: 1366px) */
-@media (max-width: 1434px) {
+@media (max-width: 1366px) {
     .nav-list-bottom {
         margin:  0rem 0rem 0rem 1.5rem;
     }
@@ -497,6 +514,15 @@ section.volunteer {
 
     .nav-bar-bottom {
         flex-wrap: nowrap;
+    }
+
+    .nav-list {
+        margin:  0rem 2rem 0rem 0rem;
+    }
+
+    .nav-list a {
+        margin: 1rem;
+        font-size: 1.8rem;
     }
 }
 /* end media queries (max-width: 1290px) */
@@ -1005,7 +1031,6 @@ section.volunteer {
     .nav-bar-bottom {
         display: none;
     }
-
 }
 /* end media queries (max-width: 682px) */
 
@@ -1100,13 +1125,16 @@ section.volunteer {
     }
 
 }
-
 /* end media queries (max-width: 600px) */
 
 /* start media queries (max-width: 480px) */
 @media (max-width: 480px) {
     .logo {
         margin-left: 1.5rem;
+    }
+
+    .donate-heading a {
+        font-size: 5rem;
     }
 
     .page-container {
@@ -1214,6 +1242,10 @@ section.volunteer {
         margin: 0rem .3rem;
     }
 
+    .donate-heading a {
+        font-size: 4.8rem;
+    }
+
     .logo {
         margin-left: 1rem;
     }
@@ -1263,6 +1295,10 @@ section.volunteer {
         font-size: 1.05rem;
     }
 
+    .donate-heading a {
+        font-size: 4.5rem;
+    }
+
     .donate-heading p {
         margin: 0rem 0rem 0rem 5rem;
     }
@@ -1305,6 +1341,10 @@ section.volunteer {
 
     .landing-text h6 {
         font-size: 1.05rem;
+    }
+
+    .donate-heading a {
+        font-size: 4rem;
     }
 
     .donate-heading p {
